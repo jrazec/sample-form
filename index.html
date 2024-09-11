@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="top">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p class="thankful-so-much"><em>Thank you for taking the time to help us improve the platform</em></p>
+    </div>
+
+    <fieldset>
+
+
+        <form method="post" action="#">
+
+            <div class="personal-details">
+                <div class="inputs">
+                    <label for="name">Name</label>
+                    <div>
+                        <input class="inputs" type="text" id="name" placeholder="Enter your name">
+                    </div>
+                </div>
+                
+                <div class="inputs">
+                    <label for="email">Email</label>
+                    <div>
+                        <input class="inputs" type="email" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                
+                <div class="inputs">
+                    <label for="age">Age (optional)</label>
+                    <div>
+                        <input class="inputs" type="number" id="age" placeholder="Age">
+                    </div>
+                </div>
+                
+                <div class="inputs">
+                    <label for="role">Which option best describes your current role?</label>
+                    <div>
+                        <select id="role" class="inputs-2">
+                            <option value="">Select an option</option>
+                            <option value="hello">hello</option>
+                            <option value="badette">badette</option>
+                            <option value="razec">razec</option>
+                            <option value="rick">rick</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="inputs">
+                    <div>
+                        <span>Would you recommend freeCodeCamp to a friend?</span>
+                    </div>
+                    <div>
+                        <div>
+                            <input name="radio-choices" type="radio" value="definitely" class="radio-input">
+                            <label for="definitely">Definitely</label>
+                        </div>
+                        <div>
+                            <input name="radio-choices" type="radio" value="maybe" class="radio-input">
+                            <label for="maybe">Maybe</label>
+                        </div>
+                        <div>
+                            <input name="radio-choices" type="radio" value="not-sure" class="radio-input">
+                            <label for="not-sure">Not Sure</label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="inputs">
+                    <div>
+                        <span>What is your favorite feature of freeCodeCamp?</span>
+                    </div>
+                    <div>
+                        <select class="inputs-2">
+                            <option value="me">me</option>
+                            <option value="ako">ako</option>
+                            <option value="ako-lang">ako lang</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="inputs">
+                    <span>What would you like to see improved? (Check all that apply)</span>
+                    <div class="check">
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">
+                                <label for="frontend-projects">Front-end Projects</label>
+                            </div>          
+                        </div>
+
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">
+                                <label for="backend-projects">Back-end Projects</label>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">
+                                <label for="data-visualization">Data Visualization</label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">
+                                <label for="challenge">Challenge</label>
+                            </div>
+                            
+                        </div>
+
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">
+                                <label for="open-source-community">Open Source Community</label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">                            
+                                <label for="gitter-help-room">Gitter help room</label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">                            
+                                <label for="videos">Videos</label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">
+                                <label for="city-meetups">City Meetups</label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">
+                                <label for="wiki">Wiki</label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">
+                                <label for="forum">Forum</label>
+                            </div>
+                        </div>
+                    
+                        <div class="checkbox-input">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="cbox-lbl">
+                                <label for="additional-courses">Additional Courses</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                    
+                <div class="r">
+                    
+                    <div>
+                        <span>Any comments or suggestions?</span>
+                    </div>
+                    <textarea class="inputs" fixed></textarea>
+                </div>
+                    
+                <input type="button" value="Submit" class="submit-btn">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+    width: 30rem;   
+}
+
+input,select {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label, span {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h1 {
+    margin: 0 2px;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    margin-top: 5px;
+}
+
+.thankful-so-much {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+    width: 100vw;
+    height: 20%;
+    background-color: #1b1616;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.radio-input {
+    width: 15px;
+    height: 15px;
+}
+
+textarea {
+    text-align: left;
+    height: 5rem;
+    text-align: start;
+    padding: 5px;
+    width: 50vw;
+    border-radius: 5px;
+    resize: vertical;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submit-btn {
+    margin-top: 2rem;
+    background-color: rgb(74, 171, 74);
+}
+.checkbox-input {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.cbox-lbl {
+    padding-left: .3rem;
+}
+label {
+    padding-top: 1rem;
+    padding-bottom: 10px;
+}
+
+.inputs {
+    width: 25rem;
+}
+.inputs-2 {
+    width: 25.7rem;
+}
+.personal-details {
+    padding: 20px;
+    margin: 5px;
+    border: none;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    padding: 20;
+    min-width: 30rem;
+}
