@@ -119,12 +119,48 @@ label {
 
 @media only screen and (max-width:425px) {
     .personal-details{
-        width: 20rem;
+        display: flex;
+        width: 22rem;
     }
     fieldset {
         width: 22rem;
     }
     h1 {
         font-size: 1.5rem;
+    }
+    .inputs {
+        width: 22rem;
+        margin-top: 0.5rem;
+    }
+    .inputs-2 {
+        width: 22.7rem;
+        margin-top: 0.5rem;
+    }
+    form {
+        width: 22rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .personal-details{
+        display: flex;
+        width: 18rem;
+    }
+    fieldset {
+        width: 18rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .inputs {
+        width: 18rem;
+        margin-top: 0.5rem;
+    }
+    .inputs-2 {
+        width: 18.7rem;
+        margin-top: 0.5rem;
+    }
+    form {
+        width: 18rem;
     }
 }
